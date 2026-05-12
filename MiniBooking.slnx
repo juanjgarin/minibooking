@@ -1,10 +1,36 @@
 <Solution>
   <Folder Name="/src/" />
   <Folder Name="/src/services/" />
+
   <Folder Name="/src/services/BookingService/">
     <Project Path="src/services/BookingService/BookingService.Api/BookingService.Api.csproj" />
     <Project Path="src/services/BookingService/BookingService.Application/BookingService.Application.csproj" />
     <Project Path="src/services/BookingService/BookingService.Domain/BookingService.Domain.csproj" />
     <Project Path="src/services/BookingService/BookingService.Infrastructure/BookingService.Infrastructure.csproj" />
+  </Folder>
+
+  <Folder Name="/src/services/CustomerService/">
+    <Project Path="src/services/CustomerService/CustomerService.Api/CustomerService.Api.csproj" />
+    <Project Path="src/services/CustomerService/CustomerService.Application/CustomerService.Application.csproj" />
+    <Project Path="src/services/CustomerService/CustomerService.Domain/CustomerService.Domain.csproj" />
+    <Project Path="src/services/CustomerService/CustomerService.Infrastructure/CustomerService.Infrastructure.csproj" />
+  </Folder>
+
+  <Folder Name="/tests/" />
+
+  <Folder Name="/tests/BookingService.UnitTests/">
+    <Project Path="tests/BookingService.UnitTests/BookingService.UnitTests.csproj" />
+  </Folder>
+
+  <Folder Name="/tests/BookingService.IntegrationTests/">
+    <Project Path="tests/BookingService.IntegrationTests/BookingService.IntegrationTests.csproj" />
+  </Folder>
+
+  <Folder Name="/tests/CustomerService.UnitTests/">
+    <Project Path="tests/CustomerService.UnitTests/CustomerService.UnitTests.csproj" />
+  </Folder>
+
+  <Folder Name="/tests/CustomerService.IntegrationTests/">
+    <Project Path="tests/CustomerService.IntegrationTests/CustomerService.IntegrationTests.csproj" />
   </Folder>
 </Solution>
