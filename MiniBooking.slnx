@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/services/" />
+  <Folder Name="/src/services/BookingService/">
+    <Project Path="src/services/BookingService/BookingService.Api/BookingService.Api.csproj" />
+    <Project Path="src/services/BookingService/BookingService.Application/BookingService.Application.csproj" />
+    <Project Path="src/services/BookingService/BookingService.Domain/BookingService.Domain.csproj" />
+    <Project Path="src/services/BookingService/BookingService.Infrastructure/BookingService.Infrastructure.csproj" />
+  </Folder>
+</Solution>

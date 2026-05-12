@@ -1,0 +1,62 @@
+:root {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Compact enterprise density */
+.p-card .p-card-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.p-card .p-card-body {
+  padding: 0.75rem 1rem;
+}
+
+.p-toolbar {
+  gap: 0.5rem;
+}
+
+.p-datatable.p-datatable-sm .p-datatable-thead > tr > th {
+  padding: 0.45rem 0.6rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.p-datatable.p-datatable-sm .p-datatable-tbody > tr > td {
+  padding: 0.45rem 0.6rem;
+}
+
+.p-menubar {
+  border-radius: 0;
+}
+
+.p-dialog .p-dialog-header {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+}
+
+.p-dialog .p-dialog-content {
+  padding: 0 1rem 1rem;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.border-round-md {
+  border-radius: 6px;
+}
