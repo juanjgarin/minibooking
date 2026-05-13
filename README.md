@@ -6,24 +6,29 @@ Practice project focused on modern architecture using microservices with .NET, R
 
 ### Backend
 
-* .NET 10
-* ASP.NET Core Web API
-* Entity Framework Core
-* SQL Server
-* FluentValidation
-* AutoMapper
+* .NET 10 (`net10.0`)
+* ASP.NET Core Web API — `Microsoft.AspNetCore.OpenApi` 10.0.6, `Swashbuckle.AspNetCore` 10.1.7
+* Entity Framework Core 10.0.7 (`Microsoft.EntityFrameworkCore.SqlServer`)
+* SQL Server 2022 (`mcr.microsoft.com/mssql/server:2022-latest` in Compose)
+* FluentValidation 11.11.0 (`FluentValidation.AspNetCore` 11.3.1 in API projects)
+* AutoMapper 12.0.1
 
 ### Frontend
 
-* React
-* TypeScript
-* Vite
-* PrimeReact
+(`web/package.json`)
+
+* React 18.3.x
+* TypeScript ~5.6
+* Vite 5.4.x
+* PrimeReact 10.8.x, PrimeIcons 7.x, PrimeFlex 3.3.x
+* React Router 6.28.x
+* Axios 1.7.x
 
 ### Infrastructure
 
-* Docker
-* Docker Compose
+* Docker / Docker Compose (`deploy/docker-compose.yml`)
+* API images: `mcr.microsoft.com/dotnet/sdk:10.0` (build), `mcr.microsoft.com/dotnet/aspnet:10.0` (runtime)
+* Web image: Node 22 Alpine (build), nginx 1.27 Alpine (static hosting)
 
 ---
 
